@@ -1,0 +1,164 @@
+public void setManufacturers_Name(Chuỗi nhà sản xuất_Name) {
+        cái này.Tên_nhà sản xuất = Tên_nhà sản xuất;
+    }
+
+    chuỗi công khai getCountry_Name() {
+        trả về Country_Name;
+    }
+
+    public void setCountry_Name(String Country_Name) {
+        cái này.Country_Name = Country_Name;
+    }
+
+    thương hiệu công khai() {
+    }
+
+    @Ghi đè
+    chuỗi công khai toString() {
+        return "Thương hiệu{" + "Tên_nhà sản xuất=" + Tên_nhà sản xuất + ", Tên_quốc gia=" + Tên_quốc gia + '}';
+    }
+
+}
+lớp công khai Circle thực hiện Shape{
+    phao cuối cùng PI = 3,14f;
+    bán kính phao riêng;
+    @Ghi đè
+        công khai gấp đôi getArea(){
+            trả về bán kính*bán kính*PI;
+        }
+        @Ghi đè
+        public void getParameter(){
+            System.out.println("Excerice3.Circle.getParameter()");
+        }
+
+    Vòng tròn công cộng (bán kính nổi) {
+        this.radius = bán kính;
+    }
+
+    @Ghi đè
+    chuỗi công khai toString() {
+        trả về "Vòng tròn{" + "bán kính=" + bán kính + '}';
+    }
+
+    float công khai getRadius() {
+        bán kính trở lại;
+    }
+
+    public void setRadius(bán kính float) {
+        this.radius = bán kính;
+    }
+
+}
+giao diện công cộng Shape {
+    công khai gấp đôi getArea();
+    public void getParameter();
+
+}
+lớp công khai Circle thực hiện Shape{
+    phao cuối cùng PI = 3,14f;
+    bán kính phao riêng;
+    @Ghi đè
+        công khai gấp đôi getArea(){
+            trả về bán kính*bán kính*PI;
+        }
+        @Ghi đè
+        public void getParameter(){
+            System.out.println("Excerice3.Circle.getParameter()");
+        }
+
+    Vòng tròn công cộng (bán kính nổi) {
+        this.radius = bán kính;
+    }
+
+    @Ghi đè
+    chuỗi công khai toString() {
+        trả về "Vòng tròn{" + "bán kính=" + bán kính + '}';
+    }
+
+    float công khai getRadius() {
+        bán kính trở lại;
+    }
+
+    public void setRadius(bán kính float) {
+        this.radius = bán kính;
+    }
+
+}
+lớp công khai Hình chữ nhật thực hiện Hình dạng{
+    chiều rộng phao riêng;
+    chiều cao phao riêng;
+    @Ghi đè
+    công khai gấp đôi getArea(){
+        trả về chiều rộng * chiều cao;
+    }
+    @Ghi đè
+    public void getParameter(){
+        System.out.println("Tham số hình chữ nhật là chiều rộng và chiều cao");
+    }
+
+    public Rectange(float width, float height) {
+        this.width = chiều rộng;
+        this.height = chiều cao;
+    }
+    public void isSquare(){
+        System.out.println("Excerice3.Rectange.isSquare()");
+    }
+
+    float công khai getWidth() {
+        trả về chiều rộng;
+    }
+
+    public void setWidth(float width) {
+        this.width = chiều rộng;
+    }
+
+    phao công khai getHeight() {
+        trả về chiều cao;
+    }
+
+    public void setHeight(float height) {
+        this.height = chiều cao;
+    }
+
+    @Ghi đè
+    chuỗi công khai toString() {
+        trả về "Hình chữ nhật{" + "chiều rộng=" + chiều rộng + ", chiều cao=" + chiều cao + '}';
+    }
+
+}
+lớp công khai Thực hiện tam giác Shape{
+   bên phao riêng;
+   tham số Chuỗi riêng;
+
+   @Ghi đè
+   công khai gấp đôi getArea(){
+       quay lại bên * bên;
+   }
+   @Ghi đè
+       public void getParameter(){
+           System.out.println("Excerice3.Triangle.getParameter()");
+       }
+
+    Tam giác công cộng (các cạnh float, Tham số chuỗi) {
+        this.sides = hai bên;
+        this.paremeter = tham số;
+    }
+
+    công khai float getSides() {
+        trở lại bên;
+    }
+
+    public void setSides(float side) {
+        this.sides = hai bên;
+    }
+
+    chuỗi công khai getParemeter() {
+        tham số trả về;
+    }
+
+    public void setParemeter(Chuỗi tham số) {
+        this.paremeter = tham số;
+    }
+
+
+}
