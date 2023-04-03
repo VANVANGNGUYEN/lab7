@@ -1,0 +1,152 @@
+# lab7
+lớp trừu tượng công cộng Vehical {
+    chuỗi được bảo vệ typeofVehical;
+  Nhãn hiệu ;
+
+    phương tiện công cộng () {
+        siêu();
+    }
+
+    public Vehical(String typeofVehical, Brand brand) {
+        siêu();
+        this.typeofVehical = typeofVehical;
+        this.brand = thương hiệu;
+    }
+
+    thương hiệu công khai getBrand() {
+        trả lại thương hiệu;
+    }
+
+    public void setBrand(Thương hiệu thương hiệu) {
+        this.brand = thương hiệu;
+    }
+
+
+
+    chuỗi công khai getTypeofVehical() {
+        trả về typeofVehical;
+    }
+
+    public void setTypeofVehical(String typeofVehical) {
+        this.typeofVehical = typeofVehical;
+    }
+
+    public void Begin(){
+        System.out.println("Bắt đầu");
+    }
+    public void Gia tốc(){
+        System.out.println("Tăng tốc thêm một lần nữa!");
+    }
+    trừu tượng công khai double getSpeed();
+
+     chuỗi công khai getManufacturers_Name() {
+         return this.brand.getManufacturers_Name();//lấy tên sản xuất
+     }
+}
+lớp công khai Máy bay mở rộng Vehical{
+
+
+    riêng String Fuel;
+
+    máy bay công cộng(String Fuel, String typeofVehical, Brand brand) {
+        super("MH570", nhãn hiệu);
+        cái này.Fuel = Nhiên liệu;
+    }
+
+
+
+
+
+    chuỗi công khai getFuel() {
+        trả lại Nhiên liệu;
+    }
+
+    public void setFuel(String Fuel) {
+        cái này.Fuel = Nhiên liệu;
+    }
+
+    public void catCanh(){
+        System.out.println("catCanh bay tren khong");
+    }
+    public void haCanh(){
+        System.out.println("haCanh tai TP HCM");
+    }
+
+    @Ghi đè
+    công khai gấp đôi getSpeed(){
+        trả lại 300;
+    }
+
+
+}
+lớp công cộng Xe kéo dài Xe cộ{
+    nhiên liệu String riêng;
+
+    xe công cộng(String Fuel, String typeofVehical, Brand brand) {
+        super("Xe hơi", nhãn hiệu);
+        this. Fuel = nhiên liệu;
+    }
+
+
+
+    Xe công cộng() {
+    }
+
+    chuỗi công khai getFuel() {
+        trả lại nhiên liệu;
+    }
+
+    public void setFuel(String fuel) {
+        this. Fuel = nhiên liệu;
+    }
+    @Ghi đè
+    công khai gấp đôi getSpeed(){
+        trả lại 60;
+    }
+}
+xe đạp hạng công cộng kéo dài Vehical {
+    @Ghi đè
+    công khai gấp đôi getSpeed(){
+        trả lại 25;
+    }
+
+    xe đạp công cộng(String typeofVehical, Brand brand) {
+        super("Xe đạp", nhãn hiệu);
+    }
+
+
+
+}
+hạng phổ thông Thương hiệu {
+    chuỗi công khai Nhà sản xuất_Tên;
+    chuỗi công khai Country_Name;
+
+    thương hiệu công khai (Chuỗi Nhà sản xuất_Tên, Chuỗi Quốc gia_Name) {
+        cái này.Tên_nhà sản xuất = Tên_nhà sản xuất;
+        cái này.Country_Name = Country_Name;
+    }
+
+    chuỗi công khai getManufacturers_Name() {
+        trả về Nhà sản xuất_Tên;
+    }
+public void setManufacturers_Name(Chuỗi nhà sản xuất_Name) {
+        cái này.Tên_nhà sản xuất = Tên_nhà sản xuất;
+    }
+
+    chuỗi công khai getCountry_Name() {
+        trả về Country_Name;
+    }
+
+    public void setCountry_Name(String Country_Name) {
+        cái này.Country_Name = Country_Name;
+    }
+
+    thương hiệu công khai() {
+    }
+
+    @Ghi đè
+    chuỗi công khai toString() {
+        return "Thương hiệu{" + "Tên_nhà sản xuất=" + Tên_nhà sản xuất + ", Tên_quốc gia=" + Tên_quốc gia + '}';
+    }
+
+}
