@@ -1,0 +1,51 @@
+public void setManufacturers_Name(Chuỗi nhà sản xuất_Name) {
+        cái này.Tên_nhà sản xuất = Tên_nhà sản xuất;
+    }
+
+    chuỗi công khai getCountry_Name() {
+        trả về Country_Name;
+    }
+
+    public void setCountry_Name(String Country_Name) {
+        cái này.Country_Name = Country_Name;
+    }
+
+    thương hiệu công khai() {
+    }
+
+    @Ghi đè
+    chuỗi công khai toString() {
+        return "Thương hiệu{" + "Tên_nhà sản xuất=" + Tên_nhà sản xuất + ", Tên_quốc gia=" + Tên_quốc gia + '}';
+    }
+
+}
+lớp công khai Circle thực hiện Shape{
+    phao cuối cùng PI = 3,14f;
+    bán kính phao riêng;
+    @Ghi đè
+        công khai gấp đôi getArea(){
+            trả về bán kính*bán kính*PI;
+        }
+        @Ghi đè
+        public void getParameter(){
+            System.out.println("Excerice3.Circle.getParameter()");
+        }
+
+    Vòng tròn công cộng (bán kính nổi) {
+        this.radius = bán kính;
+    }
+
+    @Ghi đè
+    chuỗi công khai toString() {
+        trả về "Vòng tròn{" + "bán kính=" + bán kính + '}';
+    }
+
+    float công khai getRadius() {
+        bán kính trở lại;
+    }
+
+    public void setRadius(bán kính float) {
+        this.radius = bán kính;
+    }
+
+}
